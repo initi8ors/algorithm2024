@@ -1,9 +1,11 @@
 # 문제 목록
 
-| 주차 | leet code 링크                                                      |      폴더링크      |
-|:---:|:------------------------------------------------------------------|:--------------:|
-| 1주차 | [Two Sum](https://leetcode.com/problems/two-sum/description/)     | [1주차](001week) |
-| 1주차 | [LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [1주차](001week) |
+| 주차  | leet code 링크                                                           |      폴더링크      | 비고                                                                           |
+|:---:|:-----------------------------------------------------------------------|:--------------:|------------------------------------------------------------------------------|
+| 2주차 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)          | [2주차](002week) |                                                                              |
+| 2주차 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)          | [2주차](002week) |                                                                              |
+| 1주차 | [1. Two Sum](https://leetcode.com/problems/two-sum/description/)       | [1주차](001week) | 영훈, 찬울씨는 stock II로 착각 하고 잘못 풀어서, stock II를 다음주에 지현/태훈이 풀고 영훈/찬울은 Two Sum을 푼다 |
+| 1주차 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [1주차](001week) |                                                                              |
 
 ---
 
