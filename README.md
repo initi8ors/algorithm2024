@@ -1,11 +1,25 @@
 # 문제 목록
 
-| 주차  | leet code 링크                                                           |      폴더링크      |
-|:---:|:-----------------------------------------------------------------------|:--------------:|
-| 2주차 | [31. Next Permutation](https://leetcode.com/problems/next-permutation/description/)          | [2주차](002week) |                                                                              
-| 2주차 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)          | [2주차](002week) |                                                                              
-| 1주차 | [1. Two Sum](https://leetcode.com/problems/two-sum/description/)       | [1주차](001week) | 
-| 1주차 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/description/) | [1주차](001week) | 
+<table border="1">
+    <tr>
+        <th>주차</th>
+        <th>leet code 링크</th>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="002week">2주차</a></td>
+        <td><a href="https://leetcode.com/problems/next-permutation/description/">31. Next Permutation</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/">122. Best Time to Buy and Sell Stock II</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="001week">1주차</a></td>
+        <td><a href="https://leetcode.com/problems/two-sum/description/">1. Two Sum</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/lru-cache/description/">146. LRU Cache</a></td>
+    </tr>
+</table>
 
 * 1/2주차의 경우 영훈, 찬울씨는 1주차에 stock II(2주차 문제)로 착각 하고 잘못 풀어서, 2주차에 지현/태훈은 stock II(2주차 문제)를 풀고 영훈/찬울은 Two Sum(1주차 문제)을 푼다
 
