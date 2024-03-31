@@ -6,6 +6,13 @@
         <th>leet code 링크</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="003week">3주차(이론)</a></td>
+        <td><span>Two Pointer</span>/td>
+    </tr>
+    <tr>
+        <td><span>Greedy</span></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="002week">2주차</a></td>
         <td><a href="https://leetcode.com/problems/next-permutation/description/">31. Next Permutation</a></td>
     </tr>
