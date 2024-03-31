@@ -3,7 +3,7 @@
 <table border="1">
     <tr>
         <th>주차</th>
-        <th>leet code 링크</th>
+        <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
         <td rowspan="2"><a href="003week">3주차(이론)</a></td>
