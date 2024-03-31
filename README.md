@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td rowspan="2"><a href="003week">3주차(이론)</a></td>
-        <td><span>Two Pointer</span>/td>
+        <td><span>Two Pointer</span></td>
     </tr>
     <tr>
         <td><span>Greedy</span></td>
