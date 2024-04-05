@@ -1,3 +1,37 @@
+# 문제 목록
+
+<table border="1">
+    <tr>
+        <th>주차</th>
+        <th>leet code 링크(문제 주) / 주제(이론 주)</th>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="003week">3주차(이론)</a></td>
+        <td><span>Two Pointer</span></td>
+    </tr>
+    <tr>
+        <td><span>Greedy</span></td>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="002week">2주차</a></td>
+        <td><a href="https://leetcode.com/problems/next-permutation/description/">31. Next Permutation</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/">122. Best Time to Buy and Sell Stock II</a></td>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="001week">1주차</a></td>
+        <td><a href="https://leetcode.com/problems/two-sum/description/">1. Two Sum</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/lru-cache/description/">146. LRU Cache</a></td>
+    </tr>
+</table>
+
+* 1/2주차의 경우 영훈, 찬울씨는 1주차에 stock II(2주차 문제)로 착각 하고 잘못 풀어서, 2주차에 지현/태훈은 stock II(2주차 문제)를 풀고 영훈/찬울은 Two Sum(1주차 문제)을 푼다
+
+---
+
 # 2024년 2월 알고리즘 스터디
 
 각자 본업이 있는 직장인으로 구성된 스터디이기 때문에, 시간 관리가 매우 중요하므로, 스터디 분량과 투자할 시간을 현실적으로 계획해 볼 것\
