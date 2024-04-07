@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="004week">4주차</a></td>
+        <td><a href="https://leetcode.com/problems/decode-ways/description/">91. Decode Ways</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/">2433. Find The Original Array of Prefix Xor</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="003week">3주차(이론)</a></td>
         <td><span>Two Pointer</span></td>
     </tr>
