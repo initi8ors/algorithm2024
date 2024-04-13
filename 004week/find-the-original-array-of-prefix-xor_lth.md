@@ -26,9 +26,12 @@ class Solution {
 
 XOR 특성
 ![xor 특성](./images/find-the-original-array-of-prefix-xor_lth_xor특성.png)
+
 출력배열 정의
 ![출력배열 정의](./images/find-the-original-array-of-prefix-xor_lth_출력배열정의.png)
+
 출력배열 식
 ![출력배열식](./images/find-the-original-array-of-prefix-xor_lth_출력배열식.png)
+
 XOR 연산 결과는 매번 처음부터 구해야 할까?의 고민
 ![XOR결과고민](./images/find-the-original-array-of-prefix-xor_lth_xor결과고민.png)
