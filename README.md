@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="005week">5주차</a></td>
+        <td><a href="https://leetcode.com/problems/partition-array-for-maximum-sum/description/">1043. Partition Array for Maximum Sum</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/is-subsequence/description/">392. Is Subsequence</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="004week">4주차</a></td>
         <td><a href="https://leetcode.com/problems/decode-ways/description/">91. Decode Ways</a></td>
     </tr>
