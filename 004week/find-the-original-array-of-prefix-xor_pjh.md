@@ -19,4 +19,4 @@ fun findArray(pref: IntArray): IntArray {
 
 시작 값은 원 array의 첫 번째 요소와 같고 이후(두번째 요소 부터) 순차적으로 진행시 현재 index와 이전 index의 xor(^)연산 값이 해당 index의 값이 됩니다
 
-![노트](./images/find-the-original-array-of-prefix-xor_pjh.jpg)
+![노트](./images/find-the-original-array-of-prefix-xor_pjh.JPG)
