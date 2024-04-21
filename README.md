@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td rowspan="2"><a href="006week">6주차(이론 + 문제)</a></td>
-        <td>LCS(Longest Common Subsequence)/td>
+        <td>LCS(Longest Common Subsequence)</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/longest-common-subsequence/description/">1143. Longest Common Subsequence</a></td>
