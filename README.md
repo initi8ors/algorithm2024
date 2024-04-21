@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="006week">6주차(이론 + 문제)</a></td>
+        <td>LCS(Longest Common Subsequence)/td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/longest-common-subsequence/description/">1143. Longest Common Subsequence</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="005week">5주차</a></td>
         <td><a href="https://leetcode.com/problems/partition-array-for-maximum-sum/description/">1043. Partition Array for Maximum Sum</a></td>
     </tr>
