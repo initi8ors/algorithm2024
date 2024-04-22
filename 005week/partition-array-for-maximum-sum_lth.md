@@ -2,6 +2,45 @@
 
 # 코드
 
+최적화 코드 (아래 최적화되지 않은 코드에 비해 약 270배 빠름)
+불필요한 이전의 i - j(0..k까지의 내 부분배열)에 해당하는 최적해를 구하러 가는 것이 제거 되었음
+```java
+class Solution {
+    int[] dp = new int[500];
+
+    public int maxSumAfterPartitioning(int[] arr, int k) {
+        for (int i = 0; i < 500; i++) {
+            dp[i] = -1;
+        }
+        return maxSum(arr, arr.length - 1, k);
+    }
+
+    private int maxSum(int[] arr, int i, int k) {
+        // 기저 조건
+        if (i < 0) {
+            return 0;
+        }
+
+        if (dp[i] != -1) {
+            return dp[i]; // 메모이제이션 확인
+        }
+
+        int prevSumMax = 0;
+        int currentMax = 0;
+
+        for (int j = 1; j <= k && i - j + 1 >= 0; j++) {
+            currentMax = Math.max(currentMax, arr[i - j + 1]);
+            int currentSumMax = currentMax * j + maxSum(arr, i - j, k);
+            prevSumMax = Math.max(prevSumMax, currentSumMax);
+        }
+
+        dp[i] = prevSumMax;
+        return dp[i];
+    }
+}
+```
+
+최적화 X 코드 (최초 아이디어 코드, Accepted를 받긴 하지만 시간이 매우 느리게 나옴)
 ```java
 class Solution {
     int[][] dp = new int[500][500];
