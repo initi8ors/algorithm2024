@@ -1,6 +1,6 @@
 ## LCS(Longest Common Subsequence)
-최장 공통 부분문자열.  
-부분 문자열이란 연속되는 문자뿐 아니라 순서가 맞다면 연속 되지 않더라도 공통 부분인 문자열을 말한다.  
+최장 공통 부분수열  
+부분 수열이란 연속되는 문자뿐 아니라 순서가 맞다면 연속 되지 않더라도 공통 부분인 수열을 말한다.  
 
 abcde와 bcd라고 하면 Longest Common Substring과 Longest Common Subsequence는 모두 `bcd`이다.  
 abcde와 bce라고 하면 Longest Common Substring는 `bc`이고 Longest Common Subsequence는 `bce`이다.  

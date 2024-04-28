@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="007week">7주차</a></td>
+        <td><a href="https://leetcode.com/problems/merge-sorted-array/description/">88. Merge Sorted Array</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/">123. Best Time to Buy and Sell Stock III</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="006week">6주차(이론 + 문제)</a></td>
         <td>LCS(Longest Common Subsequence)</td>
     </tr>
