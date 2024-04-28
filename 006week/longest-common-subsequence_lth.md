@@ -122,6 +122,7 @@ class Solution {
 
 DP 정의, 점화식<br/>
 ![DP정의점화식](./images//lth/lcs_정의와점화식.jpeg)
+![DP잘못된점화식구조_보충설명](./images//lth/lcs_잘못된점화식구조_보충설명.jpeg)
 ![DP최종점화식](./images//lth/lcs_최종점화식.jpeg)
 
 DP 테이블<br/>
