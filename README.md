@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="008week">8주차</a></td>
+        <td><a href="https://leetcode.com/problems/design-twitter/description/">355. Design Twitter</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/">1926. Nearest Exit from Entrance in Maze</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="007week">7주차</a></td>
         <td><a href="https://leetcode.com/problems/merge-sorted-array/description/">88. Merge Sorted Array</a></td>
     </tr>
