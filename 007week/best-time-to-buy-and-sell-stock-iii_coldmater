@@ -1,0 +1,66 @@
+# 문제 정보
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+
+# 첫번째 풀이
+
+## 아이디어
+
+주어진 prices 를 index 0 부터 순회하면서 3가지 방향으로 펼쳐나간다. 사거나, 보류하거나, 팔거나. 살 수 있는 횟수(2번)가 정해져 있으므로, 이것과 prices 의 마지막 인덱스에 도달 했을 때를 종료조건으로 활용한다. 이상의 내용을 재귀함수로 구현하고, 재귀함수의 인자를 활용하여 dp 에 저장하고, 불러오는 방식으로 코딩한다.
+
+## 소스코드
+
+```cpp
+class Solution {
+public:
+    vector<int> p; //prices
+    int dp[100001][3][2];
+    int go (int i, int r, int bi) { // i: index, r: remained buying count, bi: buying index(-1: didn't buy)
+        if (dp[i][r][bi == -1] != -1) return dp[i][r][bi == -1];
+        if (i >= p.size()) {
+            if (bi != -1) {
+                return dp[i][r][bi!=-1] = max(p[p.size() - 1] - p[bi], 0);
+            } else {
+                return dp[i][r][bi==-1] = 0;
+            }
+        }
+
+        // // end condition
+        // // buy
+        int pb = 0;
+        if (r > 0 && bi == -1) {
+            pb = go(i + 1, r - 1, i); // pb: profit when buying
+        }
+
+
+        // // sell
+        int ps = 0;
+        if (bi != -1) { // ps: profit when selling
+            ps = max(p[i] - p[bi], 0);
+            int phAfterSell = go(i + 1, r, -1);
+
+            int pbAfterSell = 0;
+            if (r > 0) {
+                pbAfterSell = go(i + 1, r - 1, i);
+            }
+            ps += max(phAfterSell, pbAfterSell);
+        }
+
+        // // holding
+        int ph = go(i + 1, r, bi); // ph: profit when holding
+        dp[i][r][bi == -1] = max(pb, max(ps, ph));
+        return dp[i][r][bi == -1];
+    }
+
+    int maxProfit(vector<int>& prices) {
+        p = prices;
+
+        memset(dp, -1, sizeof(dp));
+        return go(0, 2, -1);
+    }
+};
+```
+
+## 한계
+
+dp 없이는 201/214 개의 테스트케이스가 통과하고, 시간초과가 나는 걸로 봐서 주먹구구식 접근 자체는 방향이 맞았던 것 같다. 하지만, 나머지 케이스는 dp 를 활용하여야 할 것이다. 그러나, dp 로직에서 필요한 값을 저장하고 불러오지 않는 것 같다. (기본 테스트케이스도 통과하지 못함)
