@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="009week">9주차(이론 + 문제)</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/number-of-provinces/description/">547. Number of Provinces</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="008week">8주차</a></td>
         <td><a href="https://leetcode.com/problems/design-twitter/description/">355. Design Twitter</a></td>
     </tr>
@@ -21,7 +28,7 @@
     </tr>
     <tr>
         <td rowspan="2"><a href="006week">6주차(이론 + 문제)</a></td>
-        <td>LCS(Longest Common Subsequence)</td>
+        <td>DP(Dynamic Programming)</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/longest-common-subsequence/description/">1143. Longest Common Subsequence</a></td>
