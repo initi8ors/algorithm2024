@@ -7,7 +7,7 @@
     </tr>
     <tr>
         <td rowspan="2"><a href="009week">9주차(이론 + 문제)</a></td>
-        <td></td>
+        <td>Dijkstra</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/number-of-provinces/description/">547. Number of Provinces</a></td>
