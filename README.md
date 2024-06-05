@@ -6,8 +6,11 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
-        <td rowspan="2"><a href="009week">9주차(이론 + 문제)</a></td>
+        <td rowspan="3"><a href="009week">9주차(이론 + 문제)</a></td>
         <td>Dijkstra</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/path-with-minimum-effort/description/">1631. Path With Minimum Effort</a></td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/number-of-provinces/description/">547. Number of Provinces</a></td>
