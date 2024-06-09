@@ -70,7 +70,7 @@ POCU 아카데미 그래프 이론
 
 문제: **집**에서 **학교**까지의 최단거리
 
-![dijkstra explaining simple diagram](images\coldmater\dijkstra_01.png)
+![dijkstra explaining simple diagram](images/coldmater/dijkstra_01.png)
 
 | [0] | [1]    | [2]  | [3]  | [4]    | [5]  |
 | --- | ------ | ---- | ---- | ------ | ---- |
