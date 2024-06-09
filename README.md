@@ -2,6 +2,16 @@
 
 <table border="1">
     <tr>
+        <td rowspan="3"><a href="009week">10주차</a></td>
+        <td>Dijkstra</td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/max-area-of-island/description/">95. Max Area of Island</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/balanced-binary-tree/description/">110. Balanced Binary Tree</a></td>
+    </tr>
+    <tr>
         <th>주차</th>
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
@@ -74,7 +84,7 @@
 </table>
 
 * 1/2주차의 경우 영훈, 찬울씨는 1주차에 stock II(2주차 문제)로 착각 하고 잘못 풀어서, 2주차에 지현/태훈은 stock II(2주차 문제)를 풀고 영훈/찬울은 Two Sum(1주차 문제)을 푼다
-
+* 9주차의 경우 3주 만에 스터디를 진행 하게 되어 1문제를 추가하게 되었다
 ---
 
 # 2024년 2월 알고리즘 스터디
