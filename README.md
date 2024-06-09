@@ -6,7 +6,8 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
-        <td rowspan="3">(Optional) Union find 이론</td>
+        <td rowspan="3"><a href="009week">9주차(이론 + 문제)</a></td>
+        <td>(Optional) Union find 이론</td>
     </tr>
     <tr>
         <td><a href="https://leetcode.com/problems/max-area-of-island/description/">95. Max Area of Island</a></td>
