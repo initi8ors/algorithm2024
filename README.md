@@ -6,7 +6,7 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
-        <td rowspan="3"><a href="009week">9주차(이론 + 문제)</a></td>
+        <td rowspan="3"><a href="009week">10주차</a></td>
         <td>(Optional) Union find 이론</td>
     </tr>
     <tr>
