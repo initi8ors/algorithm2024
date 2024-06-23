@@ -6,7 +6,14 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
-        <td rowspan="3"><a href="009week">10주차</a></td>
+        <td rowspan="2"><a href="011week">11주차</a></td>
+        <td><a href="https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/">1111. Maximum Nesting Depth of Two Valid Parentheses Strings</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/compare-version-numbers/description/">165. Compare Version Numbers</a></td>
+    </tr>
+    <tr>
+        <td rowspan="3"><a href="010week">10주차</a></td>
         <td>(Optional) Union find 이론</td>
     </tr>
     <tr>
