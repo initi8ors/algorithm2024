@@ -6,6 +6,13 @@
         <th>leet code 링크(문제 주) / 주제(이론 주)</th>
     </tr>
     <tr>
+        <td rowspan="2"><a href="012week">12주차</a></td>
+        <td><a href="https://leetcode.com/problems/circular-permutation-in-binary-representation/description/">1238. Circular Permutation in Binary Representation</a></td>
+    </tr>
+    <tr>
+        <td><a href="https://leetcode.com/problems/adding-spaces-to-a-string/description/">2109. Adding Spaces to a String</a></td>
+    </tr>
+    <tr>
         <td rowspan="2"><a href="011week">11주차</a></td>
         <td><a href="https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/description/">1111. Maximum Nesting Depth of Two Valid Parentheses Strings</a></td>
     </tr>
